@@ -1,5 +1,5 @@
 ## 📚Github
-Hi，你好这是我的个人Github，个人博客是https://sivanlaai.github.io/，欢迎交流和加入友链。
+Hi，你好这是我的个人博客源码，博客框架是vuepress，主题是vdoing，个人博客是[https://sivanlaai.github.io/](https://sivanlaai.github.io/)，欢迎交流和加入友链。
 
 ## 🐼Me
 前华为码农，非典型CS博士在读。
