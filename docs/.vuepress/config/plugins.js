@@ -78,6 +78,7 @@ module.exports = [
       hm: '503f098e7e5b3a5b5d8c5fc2938af002',
     },
   ],
+/*
   [
     'vuepress-plugin-comment', // 评论
     {
@@ -98,6 +99,7 @@ module.exports = [
       },
     },
   ],
+  */
   [
     '@vuepress/last-updated', // "上次更新"时间格式
     {

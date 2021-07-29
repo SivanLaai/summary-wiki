@@ -53,6 +53,8 @@ module.exports = [
     text: '百科',
     link: '/wiki/',
     items: [
+      { text: 'rime-pure', link: '/pages/c4dc52/' },
+      { text: 'Vim', link: '/pages/77f655/' },
       { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
       { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
       { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
