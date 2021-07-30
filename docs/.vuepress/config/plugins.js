@@ -1,11 +1,10 @@
 // 插件配置
 module.exports = [
   // 本地插件
-  // [require('./plugins/love-me'), { // 鼠标点击爱心特效
+  // [require('../plugins/love-me'), { // 鼠标点击爱心特效
   //   color: '#11a8cd', // 爱心颜色，默认随机色
   //   excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
   // }],
-
   'vuepress-plugin-baidu-autopush', // 百度自动推送
 
   // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
@@ -78,17 +77,27 @@ module.exports = [
       hm: '503f098e7e5b3a5b5d8c5fc2938af002',
     },
   ],
-/*
   [
-    'vuepress-plugin-comment', // 评论
+    //'vuepress-plugin-comment', // 评论
+	require('../plugins/vuepress-plugin-comment'),
+	 {       
+	   choosen: 'valine', 
+       // options选项中的所有参数，会传给Valine的配置
+       options: {
+         el: '#valine-vuepress-comment',
+         appId: 'kvS4Tw6bMybzIsflwrECEBXh-gzGzoHsz',
+         appKey: 'IVgrulPVD1TBt7IeTlki0oNi'
+       }
+	 }
+	  /*
     {
       choosen: 'gitalk',
       options: {
-        clientID: 'a6e1355287947096b88b',
-        clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
-        repo: 'blog-gitalk-comment', // GitHub 仓库
-        owner: 'xugaoyi', // GitHub仓库所有者
-        admin: ['xugaoyi'], // 对仓库有写权限的人
+        clientID: '2a1ab85111966aa52a61',
+        clientSecret: '4a5f497688652952535c095e18f24c32e83dd835',
+        repo: 'summary-wiki-comment', // GitHub 仓库
+        owner: 'SivanLaai', // GitHub仓库所有者
+        admin: ['SivanLaai'], // 对仓库有写权限的人
         // distractionFreeMode: true,
         pagerDirection: 'last', // 'first'正序 | 'last'倒序
         id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
@@ -97,9 +106,9 @@ module.exports = [
         body:
           '页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>', // GitHub issue 的内容
       },
-    },
+    },*/
   ],
-  */
+  //*/
   [
     '@vuepress/last-updated', // "上次更新"时间格式
     {
