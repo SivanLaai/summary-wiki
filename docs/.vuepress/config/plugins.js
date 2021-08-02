@@ -78,39 +78,17 @@ module.exports = [
     },
   ],
   [
-	  /*
-    'vuepress-plugin-comment', // 评论
-	require('../plugins/vuepress-plugin-comment'),
+    'vuepress-plugin-comment-plus', // 评论
 	 {       
-	   choosen: 'valine', 
-       // options选项中的所有参数，会传给Valine的配置
+	   choosen: 'waline', 
+       // options选项中的所有参数，会传给Waline的配置
        options: {
          el: '#valine-vuepress-comment',
-         appId: 'kvS4Tw6bMybzIsflwrECEBXh-gzGzoHsz',
-         appKey: 'IVgrulPVD1TBt7IeTlki0oNi'
+         serverURL: 'https://waline-api-green.vercel.app',
+		 path: '<%- frontmatter.commentid || frontmatter.permalink %>'
        }
 	 }
-	 */
-	require('../plugins/vuepress-plugin-comment'),
-    {
-      choosen: 'gitalk',
-      options: {
-        clientID: '2a1ab85111966aa52a61',
-        clientSecret: '4a5f497688652952535c095e18f24c32e83dd835',
-        repo: 'summary-wiki-comment', // GitHub 仓库
-        owner: 'SivanLaai', // GitHub仓库所有者
-        admin: ['SivanLaai'], // 对仓库有写权限的人
-        // distractionFreeMode: true,
-        pagerDirection: 'last', // 'first'正序 | 'last'倒序
-        id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
-        title: '「评论」<%- frontmatter.ritle %>', // GitHub issue 的标题
-        labels: ['Gitalk', 'Comment'], // GitHub issue 的标签
-        body:
-          '页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>', // GitHub issue 的内容
-      },
-    },
   ],
-  //*/
   [
     '@vuepress/last-updated', // "上次更新"时间格式
     {
