@@ -1,5 +1,12 @@
 #!/usr/bin/env sh
 
+git pull
+
+git add *.md
+
+git commit -m "add doc or update doc"
+
+git push
 # 确保脚本抛出遇到的错误
 set -e
 
