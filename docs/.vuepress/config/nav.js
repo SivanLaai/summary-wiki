@@ -7,17 +7,16 @@ module.exports = [
     items: [
       // 说明：以下所有link的值只是在相应md文件定义的永久链接（不是什么特殊生成的编码）。另外，注意结尾是有斜杠的
       {
+        text: 'Linux命令行手册',
+        link: '/pages/8143cc480faf9a11/'
+      },
+      {
         text: '前端',
         items: [
           { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
-	      { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-		  { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
+          { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
+          { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
           { text: 'Vue', link: '/pages/5d463fbdb172d43b/' },
-        ],
-      },
-      {
-        text: '学习笔记',
-        items: [
           { text: '《JavaScript教程》笔记', link: '/note/javascript/' },
           { text: '《JavaScript高级程序设计》笔记', link: '/note/js/' },
           { text: '《ES6 教程》笔记', link: '/note/es6/' },
@@ -53,10 +52,11 @@ module.exports = [
     text: '百科',
     link: '/wiki/',
     items: [
-      { text: 'rime-pure', link: '/pages/c4dc52/' },
+      { text: 'rime-pure', link: '/pages/f0e340/' },
       { text: 'Vim', link: '/pages/77f655/' },
       { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
       { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
+      { text: '常见问题', link: '/pages/66a644/' },
       { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
       { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
       { text: '软件安装', link: '/pages/860274/' },
