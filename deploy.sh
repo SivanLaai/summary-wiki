@@ -2,7 +2,7 @@
 
 git pull
 
-git add *.md
+git add *
 
 git commit -m "add doc or update doc"
 
