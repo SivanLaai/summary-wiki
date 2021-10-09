@@ -79,15 +79,15 @@ module.exports = [
   ],
   [
     'vuepress-plugin-comment-plus', // 评论
-	 {       
-	   choosen: 'waline', 
+     {
+       choosen: 'waline',
        // options选项中的所有参数，会传给Waline的配置
        options: {
          el: '#valine-vuepress-comment',
-         serverURL: 'https://waline-api-green.vercel.app',
-		 path: '<%- frontmatter.commentid || frontmatter.permalink %>'
+         serverURL: 'https://waline-api-kappa.vercel.app',
+         path: '<%- frontmatter.commentid || frontmatter.permalink %>'
        }
-	 }
+     }
   ],
   [
     '@vuepress/last-updated', // "上次更新"时间格式
