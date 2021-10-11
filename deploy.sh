@@ -11,10 +11,10 @@ git push
 set -e
 
 # 生成静态文件
-npm run build
+#npm run build
 
 # 进入生成的文件夹
-mkdir -p docs/.vuepress/dist
+#mkdir -p docs/.vuepress/dist
 cd docs/.vuepress/dist
 
 # deploy to github pages
