@@ -8,7 +8,7 @@ module.exports = [
       // 说明：以下所有link的值只是在相应md文件定义的永久链接（不是什么特殊生成的编码）。另外，注意结尾是有斜杠的
       {
         text: 'Linux命令行手册',
-        link: '/pages/8143cc480faf9a11/'
+        link: '/pages/54a248/'
       },
       {
         text: '前端',
@@ -43,9 +43,11 @@ module.exports = [
     ],
   },
   {
-    text: 'AI',
-    link: '/ai/',
+    text: '学习',
+    link: '/charging/',
     items: [
+      { text: '量化交易', link: '/pages/7c452a/' },
+      { text: '学习方法', link: '/pages/0ab16b/' },
     ],
   },
   {
