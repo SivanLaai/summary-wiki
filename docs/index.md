@@ -13,9 +13,9 @@ features: # 可选的
     details: 编程相关的基础知识
     link: /base/ # 可选
     imgUrl: /img/base.png # 可选
-  - title: AI
-    details: 人工智能相关技术
-    link: /ai/
+  - title: 学习
+    details: 学习相关前沿知识
+    link: /charging/
     imgUrl: /img/ai.png
   - title: 百科
     details: 技术文档、教程、技巧、总结等文章

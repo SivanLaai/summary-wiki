@@ -7,8 +7,25 @@ module.exports = [
     items: [
       // 说明：以下所有link的值只是在相应md文件定义的永久链接（不是什么特殊生成的编码）。另外，注意结尾是有斜杠的
       {
-        text: 'Linux命令行手册',
-        link: '/pages/54a248/'
+        text: '设计模式',
+        items: [
+            {text: '创建型', link: '/pages/612b73/'},
+            {text: '行为型', link: '/pages/744152/'},
+            {text: '结构型', link: '/pages/8507dd/'},
+        ]
+      },
+      {
+        text: '操作系统',
+        items: [
+            {text: 'Linux命令行手册', link: '/pages/54a248/'},
+        ]
+      },
+      {
+        text: '算法学习',
+        items: [
+            {text: 'Leetcode-算法思想', link: '/pages/5aee27/'},
+            {text: 'Leetcode-数据结构', link: '/pages/db89b8/'},
+        ]
       },
       {
         text: '前端',
