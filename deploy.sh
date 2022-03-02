@@ -21,14 +21,14 @@ cd docs/.vuepress/dist
 #echo 'b.xugaoyi.com' > CNAME
 username="SivanLaai"
 email="lyhhap@163.com"
+git config --global user.name "$username"
+git config --global user.email "$email"
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
   githubUrl=git@github.com:SivanLaai/SivanLaai.github.io.git
 else
   msg='来自github actions的自动部署'
   githubUrl=https://SivanLaai:${GITHUB_TOKEN}@github.com/SivanLaai/SivanLaai.github.io.git
-  git config --global user.name "SivanLaai"
-  git config --global user.email "lyhhap@163.com"
 fi
 
 echo $githubUrl
