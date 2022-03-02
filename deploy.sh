@@ -31,6 +31,8 @@ else
   git config --global user.email "lyhhap@163.com"
 fi
 
+echo $githubUrl
+
 git init
 git add -A
 git commit -m "${msg}"
