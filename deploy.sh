@@ -18,7 +18,7 @@ mkdir -p docs/.vuepress/dist
 cd docs/.vuepress/dist
 
 # deploy to github pages
-#echo 'b.xugaoyi.com' > CNAME
+echo 'www.sivanlaai.top' > CNAME
 username="SivanLaai"
 email="lyhhap@163.com"
 git config --global user.name "$username"
