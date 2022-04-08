@@ -22,3 +22,8 @@ urls.txt
 .swp
 
 .obsidian
+
+.log
+
+*.db
+*.db-wal
