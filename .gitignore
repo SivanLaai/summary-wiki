@@ -27,3 +27,4 @@ urls.txt
 
 *.db
 *.db-wal
+*.db-shm
